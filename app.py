@@ -4,7 +4,6 @@ import pandas as pd
 import regex as re
 from matplotlib import pyplot as plt
 from textblob import TextBlob
-from nltk.tokenize import sent_tokenize,word_tokenize
 from gensim.summarization.summarizer import summarize 
 from gensim.summarization import keywords
 import spacy
