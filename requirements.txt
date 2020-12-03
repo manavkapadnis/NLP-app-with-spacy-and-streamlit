@@ -1,5 +1,4 @@
 ./en_core_web_sm-2.2.5.tar.gz
-nltk==3.5
 regex==2020.7.14
 pandas==0.24.2
 textblob==0.15.3
