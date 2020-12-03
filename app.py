@@ -77,7 +77,7 @@ def text_analyzer(my_text):
 if option == 'Sentiment Analysis':
 
     #Creating graph for sentiment across each sentence in the text inputted
-    sents = sent_tokenize(text)
+    sents = text.split('.')
     entireText = TextBlob(text)
     sentScores = []
     for sent in sents:
